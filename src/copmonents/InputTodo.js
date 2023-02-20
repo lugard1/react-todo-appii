@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { FaPlusCircle } from 'react-icons/fa';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
 const InputTodo = ({ addTodoItem }) => {
@@ -22,6 +24,7 @@ const InputTodo = ({ addTodoItem }) => {
         title: '',
       });
     } else {
+      // eslint-disable-next-line no-alert
       alert('Please write item');
     }
   };

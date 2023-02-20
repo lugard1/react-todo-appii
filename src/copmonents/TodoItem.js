@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { FaTrash } from 'react-icons/fa';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import styles from './TodoItem.module.css';
 

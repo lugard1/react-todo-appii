@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 // component file
-import TodoContainer from './components/TodoContainer';
+import TodoContainer from './TodoContainer';
 
 // stylesheet
 import './App.css';
