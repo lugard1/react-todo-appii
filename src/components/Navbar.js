@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { NavLink } from 'react-router-dom';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { MdClose } from 'react-icons/md';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FiMenu } from 'react-icons/fi';
-
 import './Navbar.css';
 
 const Navbar = () => {

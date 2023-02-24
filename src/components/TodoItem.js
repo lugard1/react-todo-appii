@@ -45,7 +45,7 @@ const TodoItem = ({
 
   return (
     <li className={styles.item}>
-      <div onDoubleClick={handleEditing} style={viewMode}>
+      <div onClick={handleEditing} style={viewMode}>
         <input
           type="checkbox"
           className={styles.checkbox}
